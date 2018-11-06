@@ -1,6 +1,33 @@
-import React from 'react'
-
 export default {
+  contacts: [
+    {
+      label: 'CV',
+      link: ''
+    },
+    {
+      label: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/massimopalmieri'
+    },
+    {
+      label: 'Email',
+      link: 'mailto:massimo.palmieri+portfolio@gmail.com'
+    },
+    {
+      label: '0782-417-4839',
+      link: 'tel:00447824174839'
+    },
+  ],
+  education: [
+    {
+      school: 'Suor Orsola Benincasa University of Naples',
+      title: 'Bachelor degree in Communication Studies',
+      year: '2011'
+    },
+    {
+      school: 'Suor Orsola Benincasa University of Naples',
+      title: 'Advertising, Visual communication and Marketing Planning workshops'
+    }
+  ],
   skills: [
     'JavaScript',
     'React',

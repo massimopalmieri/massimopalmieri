@@ -1,17 +1,19 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  margin: 50px auto 0;
+  margin: 50px auto;
   width: 960px;
 `
 
 export const Block = styled.div`
-  //background-color: #ffffff;
-  border-bottom: 1px solid #e6e6e6;
   color: #323141;
   padding: 2rem;
   margin-bottom: 2px;
   position: relative;
+  
+  &:not(:last-of-type) {
+    border-bottom: 1px solid #e6e6e6;  
+  }
 `
 
 export const BlockTitle = styled.h3`
