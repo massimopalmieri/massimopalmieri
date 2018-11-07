@@ -9,6 +9,7 @@ const ContactLink = styled.a`
   margin-right: 20px;
   color: #2B87B1;
   text-decoration: none;
+  white-space: nowrap;
 `
 
 export default () => {

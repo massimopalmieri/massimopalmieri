@@ -1,13 +1,14 @@
 import React from 'react'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import { setConfig } from 'react-hot-loader'
 import Layout from '../components/layout'
 import Intro from '../components/Intro'
 import Contacts from '../components/Contacts'
-import Jobs from '../components/Jobs'
+import AboutMe from '../components/AboutMe'
 import Skills from '../components/Skills'
+import Jobs from '../components/Jobs'
 import Education from '../components/Education'
-import { Wrapper, Block, BlockTitle, AboutMe, AboutMeInfo, AboutMeTitle } from '../components/style'
-import { Search, Status, Location } from '../components/Icons'
+import { Wrapper } from '../components/style'
 
 setConfig({ pureSFC: true })
 
@@ -15,43 +16,17 @@ const IndexPage = () => (
   <Layout>
     <Wrapper>
       <Intro />
-
       <Contacts />
-
-      <Block>
-        <BlockTitle>about me</BlockTitle>
-
-        <AboutMe>
-          <Location />
-          <AboutMeInfo>
-            <AboutMeTitle>Willing to work in or near the following areas (or remote):</AboutMeTitle>
-            London, United Kingdom
-          </AboutMeInfo>
-        </AboutMe>
-
-        <AboutMe>
-          <Status />
-          <AboutMeInfo>
-            <AboutMeTitle>Job search status:</AboutMeTitle>
-            Open to exploring new opportunities
-          </AboutMeInfo>
-        </AboutMe>
-
-        <AboutMe>
-          <Search />
-          <AboutMeInfo>
-            <AboutMeTitle>What I am looking for in a new position:</AboutMeTitle>
-            Modern tech stack, flexible working.
-          </AboutMeInfo>
-        </AboutMe>
-      </Block>
-
+      <AboutMe />
       <Skills />
-
       <Jobs />
-
       <Education />
     </Wrapper>
+    <MessengerCustomerChat
+      pageId="127985967891916"
+      appId="263902037430900"
+      htmlRef="fb-customerchat"
+    />
   </Layout>
 )
 

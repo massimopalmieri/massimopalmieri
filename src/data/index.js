@@ -35,7 +35,12 @@ export default {
     'Electron.js',
     'HTML',
     'CSS',
-    'SASS / Less'
+    'SASS / Less',
+    'build systems',
+    'front-end architecture',
+    'responsive web design',
+    'UI/UX design',
+    'performance optimisation'
   ],
   history: [
     {
