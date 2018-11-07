@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   margin: 50px auto;
-  width: 960px;
+  max-width: 960px;
 `
 
 export const Block = styled.div`

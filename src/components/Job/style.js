@@ -25,7 +25,7 @@ export const Title = styled.div`
 
 export const Date = styled.div`
   color: #787985;
-  font-size: .9rem
+  font-size: .8rem
 `
 
 export const Achievements = styled.ul`

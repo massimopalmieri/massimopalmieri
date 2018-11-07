@@ -26,7 +26,7 @@ export const Title = styled.div`
 
 export const Year = styled.div`
   font-weight: 500;
-  color: #777;
+  color: #787985;
   font-size: .8rem;
   margin-top: 10px;
 `

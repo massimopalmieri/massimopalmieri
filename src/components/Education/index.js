@@ -10,7 +10,7 @@ export default () => {
       <BlockTitle>education</BlockTitle>
 
       {data.education.map(education => (
-        <Wrapper>
+        <Wrapper key={education.title}>
           <div>
             <Education height={30} width={30} />
           </div>
