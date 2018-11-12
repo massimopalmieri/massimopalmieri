@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  margin: 50px auto;
+  margin: 10px auto;
   max-width: 960px;
+  
+  @media (min-width: 960px) {
+    margin: 50px auto;
+  }
 `
 
 export const Block = styled.div`
