@@ -22,11 +22,7 @@ const IndexPage = () => (
       <Jobs />
       <Education />
     </Wrapper>
-    <MessengerCustomerChat
-      pageId="127985967891916"
-      appId="263902037430900"
-      htmlRef="fb-customerchat"
-    />
+    <MessengerCustomerChat pageId="127985967891916" appId="263902037430900" />
   </Layout>
 )
 
