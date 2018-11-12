@@ -15,13 +15,13 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Massimo Palmieri personal website',
-        short_name: 'starter',
+        short_name: 'Massimo Palmieri',
         start_url: '/',
-        background_color: '#336599',
-        theme_color: '#336599',
+        background_color: '#000000',
+        theme_color: '#000000',
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
