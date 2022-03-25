@@ -10,3 +10,4 @@ yarn-error.log
 .idea
 /app/styles/app.css
 api/index.js
+.eslintcache

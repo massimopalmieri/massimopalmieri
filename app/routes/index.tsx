@@ -17,7 +17,7 @@ function SectionTitle({children}: {children: ReactNode}) {
 
 export default function Index() {
   return (
-    <div className="relative mb-24">
+    <div className="relative mb-12">
       <div className="sticky top-0 mb-16 mt-36 bg-white/50 py-8 backdrop-blur-xl">
         <div className="prose mx-auto">
           <h1 className="text-6xl font-thin">
