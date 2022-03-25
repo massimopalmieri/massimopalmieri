@@ -1,4 +1,5 @@
 import {ReactNode} from 'react'
+import {Link} from 'remix'
 import data from '~/data.json'
 
 function SectionTitle({children}: {children: ReactNode}) {
@@ -18,12 +19,12 @@ export default function Index() {
       <h1 className="mt-36 text-6xl font-thin">Massimo Palmieri</h1>
 
       <SectionTitle>Professional summary</SectionTitle>
-      <p>
+      <p className="lead font-serif">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
         amet animi aperiam aut autem dolores in minus nihil nisi nobis, officiis
         quia quibusdam vero? Beatae illum iste mollitia natus quos.
       </p>
-      <p>
+      <p className="lead font-serif">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
         amet animi aperiam aut autem dolores in minus nihil nisi nobis, officiis
         quia quibusdam vero? Beatae illum iste mollitia natus quos.
@@ -41,11 +42,11 @@ export default function Index() {
       <SectionTitle>Work history</SectionTitle>
       {data.history.map((item, index) => {
         return (
-          <div key={index}>
-            <h3 className="">
+          <div key={index} className="relative -ml-12 pl-12 pb-2">
+            <h3 className="mt-0 overflow-hidden pt-6">
               {item.employer} - {item.title}
             </h3>
-            <small className="">{item.date}</small>
+            <p className="my-4 text-sm font-semibold">{item.date}</p>
             <ul className="pl-0 font-serif">
               {item.achievements.map((item) => (
                 <li key={item}>{item}</li>
@@ -57,22 +58,13 @@ export default function Index() {
 
       <SectionTitle>Education</SectionTitle>
       {data.education.map((item) => (
-        <div>
+        <div key={item.title}>
           <div>
             {item.year} - <span className="font-semibold">{item.school}</span>
           </div>
           <p>{item.title}</p>
         </div>
       ))}
-
-      <div className="my-24">
-        <a
-          href=""
-          className="px-6/20 relative cursor-pointer whitespace-nowrap rounded-xl border-2 border-emerald-600 bg-emerald-600 p-4 text-sm text-white no-underline dark:hover:bg-sky-400"
-        >
-          Download pdf
-        </a>
-      </div>
     </div>
   )
 }
