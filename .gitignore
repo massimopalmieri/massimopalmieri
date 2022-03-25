@@ -8,4 +8,5 @@ yarn-error.log
 .DS_Store
 
 .idea
-/app/styles
+/app/styles/app.css
+api/index.js

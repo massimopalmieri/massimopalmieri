@@ -49,7 +49,7 @@
       "employer": "Lloyds Bank",
       "title": "Lead Front-End Engineer",
       "date": "Oct 2017 — present (1 yr, 1 mo)",
-      "start": "",
+      "start": "2017/10",
       "end": "",
       "achievements": [
         "Writing modular, well tested front-end applications that remain easy to maintain as the codebase and business continues to scale",
@@ -64,8 +64,8 @@
       "employer": "NeuLion, formerly Saffron Digital",
       "title": "Lead Front-End Developer",
       "date": "Mar 2014 — Oct 2017 (3 yrs, 7 mos)",
-      "start": "",
-      "end": "",
+      "start": "2014/3",
+      "end": "2017/10",
       "achievements": [
         "building a premium VOD service for Britain's biggest music retailer using React both on client and server, Redux, Webpack, es2015, babeljs",
         "implementing a html 5 player to play DRM protected content and extending it to add our own UI and custom functionalities",
@@ -86,8 +86,8 @@
       "employer": "Karmarama",
       "title": "Senior Front-End Developer",
       "date": "Jun 2012 — Mar 2014 (1 yr, 9 mos)",
-      "start": "",
-      "end": "",
+      "start": "2012/6",
+      "end": "2014/3",
       "achievements": [
         "developing high traffic websites for big brands such as BT, Porsche, De Beers, Debeers Forevermark and Plusnet using Html 5, javaScript, Css 3, Sass",
         "developing a hybrid mobile app for Laithwaites Wines using Phonegap",
@@ -99,8 +99,8 @@
       "employer": "SocialGO",
       "title": "Front-End Developer",
       "date": "Apr 2011 — Jun 2012 (1 yr, 2 mos)",
-      "start": "",
-      "end": "",
+      "start": "2011/4",
+      "end": "2012/6",
       "achievements": [
         "Designing and coding 'house' themes",
         "Defining standards, conventions and guidelines around developing themes for the platform",
@@ -112,8 +112,8 @@
       "employer": "De Pompeis",
       "title": "Front-end Web Developer and Designer",
       "date": "Oct 2010 — Mar 2011 (5 mos)",
-      "start": "",
-      "end": "",
+      "start": "2010/10",
+      "end": "2011/3",
       "achievements": [
         "Designing and developing of websites",
         "Designing logotypes, brand identity, brochures, packaging for several mass retailer"
@@ -123,8 +123,8 @@
       "employer": "Arkadia",
       "title": "Front-end Web Developer and Designer",
       "date": "Mar 2007 — Jul 2010 (3 yrs, 4 mos)",
-      "start": "",
-      "end": "",
+      "start": "2007/3",
+      "end": "2010/6",
       "achievements": [
         "Designing and developing the front-end of several web sites, a web app and a custom CMS",
         "Designed brand identity, brochures, catalogs and packaging for several clients"
