@@ -10,7 +10,8 @@
     },
     {
       "label": "Email",
-      "link": "mailto:massimo.palmieri+portfolio@gmail.com"
+      "link": "mailto:massimo.4iy55@simplelogin.co",
+      "_link": "mailto:massimo.palmieri+portfolio@gmail.com"
     },
     {
       "label": "0782-417-4839",
@@ -47,10 +48,24 @@
   "history": [
     {
       "employer": "Lloyds Bank",
-      "title": "Lead Front-End Engineer",
-      "date": "Oct 2017 — present (1 yr, 1 mo)",
-      "start": "2017/10",
+      "title": "Lead Software Engineer",
+      "start": "2019/2",
       "end": "",
+      "achievements": [
+        "Set the strategic direction for how components and services are developed, tested and progressed within their Engineering discipline",
+        "Work with stakeholders to deliver business value through sound and fully rounded engineering methods and principles, ensuring platforms and software are built consistently with relevant patterns and practices",
+        "Ensure industry best practices are understood by Engineering Community and related business functions",
+        "Accountable for patterns and practices to be communicated and embedded across wider Engineering community",
+        "Foster knowledge sharing across Engineering community to provide solutions for complex business",
+        "Facilitate implementation of complex business problem solutions",
+        "Coach Engineering colleagues to ensure the appropriate development is in place"
+      ]
+    },
+    {
+      "employer": "Lloyds Bank",
+      "title": "Lead Front-End Engineer",
+      "start": "2017/10",
+      "end": "2019/2",
       "achievements": [
         "Writing modular, well tested front-end applications that remain easy to maintain as the codebase and business continues to scale",
         "Setting the strategic direction for how front-end applications are developed within the team",
