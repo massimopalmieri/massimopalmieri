@@ -5,7 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from 'remix'
+} from '@remix-run/react'
 import type {MetaFunction} from 'remix'
 import styles from './styles/app.css'
 
@@ -26,7 +26,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-zinc-900 ">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
