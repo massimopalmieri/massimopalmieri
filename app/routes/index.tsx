@@ -28,14 +28,20 @@ export default function Index() {
       <div className="prose mx-auto p-4 text-slate-300 prose-h3:text-yellow-400 prose-lead:text-gray-200">
         <SectionTitle>Professional summary</SectionTitle>
         <p className="lead mt-12 font-serif">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
-          amet animi aperiam aut autem dolores in minus nihil nisi nobis,
-          officiis quia quibusdam vero? Beatae illum iste mollitia natus quos.
+          Welcome to my online curriculum vitae. I am a highly experienced web
+          developer with over 15 years of commercial experience in the industry.
+          My expertise lies in JavaScript/Typescript, CSS, Node.js, and other
+          web development technologies. I have a wealth of knowledge across
+          various industries, including startups, advertising agencies, banks,
+          and SaaS companies. In addition, I possess a proven track record of
+          success in building and managing teams and executing projects using
+          agile methodologies.
         </p>
         <p className="lead font-serif">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
-          amet animi aperiam aut autem dolores in minus nihil nisi nobis,
-          officiis quia quibusdam vero? Beatae illum iste mollitia natus quos.
+          I am always seeking new challenges and opportunities to expand my
+          skills and advance my career in the field of web development. Please
+          take the time to review my CV and learn more about my experience,
+          qualifications and professional endeavors.
         </p>
 
         <SectionTitle>Skills</SectionTitle>
