@@ -40,8 +40,7 @@ export default function Index() {
         <p className="lead font-serif">
           I am always seeking new challenges and opportunities to expand my
           skills and advance my career in the field of web development. Please
-          take the time to review my CV and learn more about my experience,
-          qualifications and professional endeavors.
+          take the time to review my CV and learn more about my experience.
         </p>
 
         <SectionTitle>Skills</SectionTitle>
